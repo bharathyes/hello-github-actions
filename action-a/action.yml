@@ -1,0 +1,17 @@
+name: "hellow Action-A"
+description: "Greet Earthling"
+author: "bharathyes"
+
+inputs:
+  MY_NAME:
+    description: "your blessed name"
+    required: true
+    default: "lovely"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+
+branding:
+  icon: "mic"
+  color: "purple"
